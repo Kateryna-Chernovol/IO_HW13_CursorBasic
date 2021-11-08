@@ -8,8 +8,7 @@ public class Main {
 
         BufferedReader input = new BufferedReader(new FileReader("myFile.txt"));
 
-        PrintWriter output = new PrintWriter(new BufferedWriter(new
-                FileWriter("myFileCopied.txt")));
+        PrintWriter output = new PrintWriter(new BufferedWriter(new FileWriter("myFileCopied.txt")));
 
         String str;
         while ((str = input.readLine()) != null) {
